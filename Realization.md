@@ -24,14 +24,18 @@
 # Форматы Обмена Данными  
 
 
-## XML от SAP  
+## XML от SAP   
+  
+```xml
 <FinancialRecord>
   <TransactionId>54321</TransactionId>
   <Amount>1000</Amount>
   <Date>2024-01-08</Date>
   <Type>Invoice</Type>
 </FinancialRecord>
-
+```  
+  
+  
 ## JSON из 1C
 ```json
 {
