@@ -23,8 +23,6 @@
 
 # Форматы Обмена Данными  
 
-## XML от SAP  
-  
 
 ## XML от SAP  
 <FinancialRecord>
