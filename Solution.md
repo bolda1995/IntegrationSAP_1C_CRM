@@ -35,7 +35,7 @@
 </FinancialRecord>
 ```  
   
-  
+
 ## JSON из 1C
 ```json
 {
@@ -50,7 +50,7 @@
   
     
 ## Создание таблицы customer_orders
-  
+```SQL
 CREATE TABLE customer_orders (
     order_id SERIAL PRIMARY KEY,
     customer_id INT,
@@ -58,4 +58,5 @@ CREATE TABLE customer_orders (
     status VARCHAR(50),
     total_amount DECIMAL(10, 2)
 );
+```
 
